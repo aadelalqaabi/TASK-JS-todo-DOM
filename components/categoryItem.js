@@ -3,6 +3,7 @@ function categoryItemComponent(categoryName) {
   // Do the option design in HTML page, test it, and replace it if you need instead of this code.
   // For any variiables, just use the interpolation operation ${} and pass the variable
   return `
+            <option style="display:none;" value=${categoryName}>All</option>.
             <option value="${categoryName}" class="category-item">${categoryName}</option>
     `;
 }

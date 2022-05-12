@@ -6,6 +6,7 @@ function renderCategories(categories, id) {
     .map(categoryItemComponent)
     .join("");
 }
+
 function renderTasks(tasks, id) {
   document.getElementById(id).innerHTML = tasks
     .map(tasksItemComponent)
